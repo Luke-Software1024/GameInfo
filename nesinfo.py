@@ -15,6 +15,9 @@ except OSError as error:
     print(error)
     exit(2)
 
+print("NESInfo v1.0 by Luke")
+print("Extract cartridge info from NES ROMs.\n")
+
 file_contents = file.read()
 print(f"Cartridge info for {argv[1]}:\n")
 

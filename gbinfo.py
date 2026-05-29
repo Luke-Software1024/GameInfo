@@ -21,6 +21,9 @@ sgb_compat = {0x03: "Compatible"}
 ram_sizes = {0x00: "None", 0x01: "2 KiB", 0x02: "8 KiB", 0x03: "32 KiB", 0x04: "128 KiB", 0x05: "64 KiB"}
 region = {0x00: "Japan", 0x01: "Overseas"}
 
+print("GBInfo v1.0 by Luke")
+print("Extract cartridge info from Game Boy ROMs.\n")
+
 def main():
     if len(argv) < 2:
         print("Usage: gbinfo %CARTRIDGE_NAME%")
