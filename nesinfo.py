@@ -45,4 +45,4 @@ print(f"    VS. System: {file_contents[0x7] & 0b00000001} ({yes.get(file_content
 print(f"    PlayChoice-10: {(file_contents[0x7] & 0b00000010) >> 1} ({yes.get((file_contents[0x7] & 0b00000010) >> 1, "No")})")
 print(f"    NES 2.0: {nes2_v} ({nes2.get(nes2_v, "No")})")
 if nes2_v == 0b10:
-    print(f"Submapper: {(file_contents[0x8] & 0b11110000) >> 4}")
+    print(f"    Submapper: {(file_contents[0x8] & 0b11110000) >> 4}")
